@@ -1,0 +1,1033 @@
+########## WSL 依赖准备 2026-09-16T10:31:03+08:00 ##########
+whoami=root uid=0
+  待安装: python3-tk
+  待安装: xvfb
+  待安装: xterm
+  待安装: xdg-utils
+  待安装: fonts-wqy-microhei
+--- apt-get update ---
+--- apt-get install python3-tk xvfb xterm xdg-utils fonts-wqy-microhei ---
+Selecting previously unselected package libtcl8.6:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52653 files and directories currently installed.)
+Preparing to unpack .../00-libtcl8.6_8.6.14+dfsg-1build1_amd64.deb ...
+Unpacking libtcl8.6:amd64 (8.6.14+dfsg-1build1) ...
+Selecting previously unselected package libxft2:amd64.
+Preparing to unpack .../01-libxft2_2.3.6-1build1_amd64.deb ...
+Unpacking libxft2:amd64 (2.3.6-1build1) ...
+Selecting previously unselected package libtk8.6:amd64.
+Preparing to unpack .../02-libtk8.6_8.6.14-1build1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.14-1build1) ...
+Selecting previously unselected package tk8.6-blt2.5.
+Preparing to unpack .../03-tk8.6-blt2.5_2.5.3+dfsg-7build1_amd64.deb ...
+Unpacking tk8.6-blt2.5 (2.5.3+dfsg-7build1) ...
+Selecting previously unselected package blt.
+Preparing to unpack .../04-blt_2.5.3+dfsg-7build1_amd64.deb ...
+Unpacking blt (2.5.3+dfsg-7build1) ...
+Selecting previously unselected package fonts-wqy-microhei.
+Preparing to unpack .../05-fonts-wqy-microhei_0.2.0-beta-3.1_all.deb ...
+Unpacking fonts-wqy-microhei (0.2.0-beta-3.1) ...
+Selecting previously unselected package libclone-perl:amd64.
+Preparing to unpack .../06-libclone-perl_0.46-1build3_amd64.deb ...
+Unpacking libclone-perl:amd64 (0.46-1build3) ...
+Selecting previously unselected package libdata-dump-perl.
+Preparing to unpack .../07-libdata-dump-perl_1.25-1_all.deb ...
+Unpacking libdata-dump-perl (1.25-1) ...
+Selecting previously unselected package libencode-locale-perl.
+Preparing to unpack .../08-libencode-locale-perl_1.05-3_all.deb ...
+Unpacking libencode-locale-perl (1.05-3) ...
+Selecting previously unselected package libipc-system-simple-perl.
+Preparing to unpack .../09-libipc-system-simple-perl_1.30-2_all.deb ...
+Unpacking libipc-system-simple-perl (1.30-2) ...
+Selecting previously unselected package libfile-basedir-perl.
+Preparing to unpack .../10-libfile-basedir-perl_0.09-2_all.deb ...
+Unpacking libfile-basedir-perl (0.09-2) ...
+Selecting previously unselected package liburi-perl.
+Preparing to unpack .../11-liburi-perl_5.27-1_all.deb ...
+Unpacking liburi-perl (5.27-1) ...
+Selecting previously unselected package libfile-desktopentry-perl.
+Preparing to unpack .../12-libfile-desktopentry-perl_0.22-3_all.deb ...
+Unpacking libfile-desktopentry-perl (0.22-3) ...
+Selecting previously unselected package libtimedate-perl.
+Preparing to unpack .../13-libtimedate-perl_2.3300-2_all.deb ...
+Unpacking libtimedate-perl (2.3300-2) ...
+Selecting previously unselected package libhttp-date-perl.
+Preparing to unpack .../14-libhttp-date-perl_6.06-1ubuntu0.24.04.1_all.deb ...
+Unpacking libhttp-date-perl (6.06-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libfile-listing-perl.
+Preparing to unpack .../15-libfile-listing-perl_6.16-1_all.deb ...
+Unpacking libfile-listing-perl (6.16-1) ...
+Selecting previously unselected package libfile-mimeinfo-perl.
+Preparing to unpack .../16-libfile-mimeinfo-perl_0.34-1_all.deb ...
+Unpacking libfile-mimeinfo-perl (0.34-1) ...
+Selecting previously unselected package libfont-afm-perl.
+Preparing to unpack .../17-libfont-afm-perl_1.20-4_all.deb ...
+Unpacking libfont-afm-perl (1.20-4) ...
+Selecting previously unselected package libfontenc1:amd64.
+Preparing to unpack .../18-libfontenc1_1%3a1.1.8-1build1_amd64.deb ...
+Unpacking libfontenc1:amd64 (1:1.1.8-1build1) ...
+Selecting previously unselected package libhtml-tagset-perl.
+Preparing to unpack .../19-libhtml-tagset-perl_3.20-6_all.deb ...
+Unpacking libhtml-tagset-perl (3.20-6) ...
+Selecting previously unselected package libhtml-parser-perl:amd64.
+Preparing to unpack .../20-libhtml-parser-perl_3.81-1ubuntu0.1_amd64.deb ...
+Unpacking libhtml-parser-perl:amd64 (3.81-1ubuntu0.1) ...
+Selecting previously unselected package libio-html-perl.
+Preparing to unpack .../21-libio-html-perl_1.004-3_all.deb ...
+Unpacking libio-html-perl (1.004-3) ...
+Selecting previously unselected package liblwp-mediatypes-perl.
+Preparing to unpack .../22-liblwp-mediatypes-perl_6.04-2_all.deb ...
+Unpacking liblwp-mediatypes-perl (6.04-2) ...
+Selecting previously unselected package libhttp-message-perl.
+Preparing to unpack .../23-libhttp-message-perl_6.45-1ubuntu1_all.deb ...
+Unpacking libhttp-message-perl (6.45-1ubuntu1) ...
+Selecting previously unselected package libhtml-form-perl.
+Preparing to unpack .../24-libhtml-form-perl_6.11-1_all.deb ...
+Unpacking libhtml-form-perl (6.11-1) ...
+Selecting previously unselected package libhtml-tree-perl.
+Preparing to unpack .../25-libhtml-tree-perl_5.07-3_all.deb ...
+Unpacking libhtml-tree-perl (5.07-3) ...
+Selecting previously unselected package libhtml-format-perl.
+Preparing to unpack .../26-libhtml-format-perl_2.16-2_all.deb ...
+Unpacking libhtml-format-perl (2.16-2) ...
+Selecting previously unselected package libhttp-cookies-perl.
+Preparing to unpack .../27-libhttp-cookies-perl_6.11-1_all.deb ...
+Unpacking libhttp-cookies-perl (6.11-1) ...
+Selecting previously unselected package libhttp-daemon-perl.
+Preparing to unpack .../28-libhttp-daemon-perl_6.16-1ubuntu0.24.04.1_all.deb ...
+Unpacking libhttp-daemon-perl (6.16-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libhttp-negotiate-perl.
+Preparing to unpack .../29-libhttp-negotiate-perl_6.01-2_all.deb ...
+Unpacking libhttp-negotiate-perl (6.01-2) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../30-libice6_2%3a1.0.10-1build3_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-1build3) ...
+Selecting previously unselected package perl-openssl-defaults:amd64.
+Preparing to unpack .../31-perl-openssl-defaults_7build3_amd64.deb ...
+Unpacking perl-openssl-defaults:amd64 (7build3) ...
+Selecting previously unselected package libnet-ssleay-perl:amd64.
+Preparing to unpack .../32-libnet-ssleay-perl_1.94-1build4_amd64.deb ...
+Unpacking libnet-ssleay-perl:amd64 (1.94-1build4) ...
+Selecting previously unselected package libio-socket-ssl-perl.
+Preparing to unpack .../33-libio-socket-ssl-perl_2.085-1_all.deb ...
+Unpacking libio-socket-ssl-perl (2.085-1) ...
+Selecting previously unselected package libio-stringy-perl.
+Preparing to unpack .../34-libio-stringy-perl_2.111-3_all.deb ...
+Unpacking libio-stringy-perl (2.111-3) ...
+Selecting previously unselected package libnet-http-perl.
+Preparing to unpack .../35-libnet-http-perl_6.23-1_all.deb ...
+Unpacking libnet-http-perl (6.23-1) ...
+Selecting previously unselected package libtry-tiny-perl.
+Preparing to unpack .../36-libtry-tiny-perl_0.31-2_all.deb ...
+Unpacking libtry-tiny-perl (0.31-2) ...
+Selecting previously unselected package libwww-robotrules-perl.
+Preparing to unpack .../37-libwww-robotrules-perl_6.02-1_all.deb ...
+Unpacking libwww-robotrules-perl (6.02-1) ...
+Selecting previously unselected package libwww-perl.
+Preparing to unpack .../38-libwww-perl_6.76-1ubuntu0.1_all.deb ...
+Unpacking libwww-perl (6.76-1ubuntu0.1) ...
+Selecting previously unselected package liblwp-protocol-https-perl.
+Preparing to unpack .../39-liblwp-protocol-https-perl_6.13-1_all.deb ...
+Unpacking liblwp-protocol-https-perl (6.13-1) ...
+Selecting previously unselected package libnet-smtp-ssl-perl.
+Preparing to unpack .../40-libnet-smtp-ssl-perl_1.04-2_all.deb ...
+Unpacking libnet-smtp-ssl-perl (1.04-2) ...
+Selecting previously unselected package libmailtools-perl.
+Preparing to unpack .../41-libmailtools-perl_2.21-2_all.deb ...
+Unpacking libmailtools-perl (2.21-2) ...
+Selecting previously unselected package libxml-parser-perl.
+Preparing to unpack .../42-libxml-parser-perl_2.47-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libxml-parser-perl (2.47-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libxml-twig-perl.
+Preparing to unpack .../43-libxml-twig-perl_1%3a3.52-2_all.deb ...
+Unpacking libxml-twig-perl (1:3.52-2) ...
+Selecting previously unselected package libnet-dbus-perl.
+Preparing to unpack .../44-libnet-dbus-perl_1.2.0-2build3_amd64.deb ...
+Unpacking libnet-dbus-perl (1.2.0-2build3) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../45-libsm6_2%3a1.2.3-1build3_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1build3) ...
+Selecting previously unselected package libtie-ixhash-perl.
+Preparing to unpack .../46-libtie-ixhash-perl_1.23-4_all.deb ...
+Unpacking libtie-ixhash-perl (1.23-4) ...
+Selecting previously unselected package libx11-protocol-perl.
+Preparing to unpack .../47-libx11-protocol-perl_0.56-9_all.deb ...
+Unpacking libx11-protocol-perl (0.56-9) ...
+Selecting previously unselected package libxt6t64:amd64.
+Preparing to unpack .../48-libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libxmu6:amd64.
+Preparing to unpack .../49-libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) ...
+Selecting previously unselected package libxaw7:amd64.
+Preparing to unpack .../50-libxaw7_2%3a1.0.14-1build2_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1build2) ...
+Selecting previously unselected package libxcb-shape0:amd64.
+Preparing to unpack .../51-libxcb-shape0_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-shape0:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxfont2:amd64.
+Preparing to unpack .../52-libxfont2_1%3a2.0.6-1+deb13u1build0.24.04.2_amd64.deb ...
+Unpacking libxfont2:amd64 (1:2.0.6-1+deb13u1build0.24.04.2) ...
+Selecting previously unselected package libxkbfile1:amd64.
+Preparing to unpack .../53-libxkbfile1_1%3a1.1.0-1build4_amd64.deb ...
+Unpacking libxkbfile1:amd64 (1:1.1.0-1build4) ...
+Selecting previously unselected package libxml-xpathengine-perl.
+Preparing to unpack .../54-libxml-xpathengine-perl_0.14-2_all.deb ...
+Unpacking libxml-xpathengine-perl (0.14-2) ...
+Selecting previously unselected package libxxf86dga1:amd64.
+Preparing to unpack .../55-libxxf86dga1_2%3a1.1.5-1build1_amd64.deb ...
+Unpacking libxxf86dga1:amd64 (2:1.1.5-1build1) ...
+Selecting previously unselected package python3-tk:amd64.
+Preparing to unpack .../56-python3-tk_3.12.3-0ubuntu1_amd64.deb ...
+Unpacking python3-tk:amd64 (3.12.3-0ubuntu1) ...
+Selecting previously unselected package x11-utils.
+Preparing to unpack .../57-x11-utils_7.7+6build2_amd64.deb ...
+Unpacking x11-utils (7.7+6build2) ...
+Selecting previously unselected package x11-xkb-utils.
+Preparing to unpack .../58-x11-xkb-utils_7.7+8build2_amd64.deb ...
+Unpacking x11-xkb-utils (7.7+8build2) ...
+Selecting previously unselected package x11-xserver-utils.
+Preparing to unpack .../59-x11-xserver-utils_7.7+10build2_amd64.deb ...
+Unpacking x11-xserver-utils (7.7+10build2) ...
+Selecting previously unselected package xbitmaps.
+Preparing to unpack .../60-xbitmaps_1.1.1-2.2_all.deb ...
+Unpacking xbitmaps (1.1.1-2.2) ...
+Selecting previously unselected package xdg-utils.
+Preparing to unpack .../61-xdg-utils_1.1.3-4.1ubuntu3_all.deb ...
+Unpacking xdg-utils (1.1.3-4.1ubuntu3) ...
+Selecting previously unselected package xfonts-encodings.
+Preparing to unpack .../62-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
+Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
+Selecting previously unselected package xfonts-utils.
+Preparing to unpack .../63-xfonts-utils_1%3a7.7+6build3_amd64.deb ...
+Unpacking xfonts-utils (1:7.7+6build3) ...
+Selecting previously unselected package xfonts-base.
+Preparing to unpack .../64-xfonts-base_1%3a1.0.5+nmu1_all.deb ...
+Unpacking xfonts-base (1:1.0.5+nmu1) ...
+Selecting previously unselected package xserver-common.
+Preparing to unpack .../65-xserver-common_2%3a21.1.12-1ubuntu1.6_all.deb ...
+Unpacking xserver-common (2:21.1.12-1ubuntu1.6) ...
+Selecting previously unselected package xterm.
+Preparing to unpack .../66-xterm_390-1ubuntu3_amd64.deb ...
+Unpacking xterm (390-1ubuntu3) ...
+Selecting previously unselected package xvfb.
+Preparing to unpack .../67-xvfb_2%3a21.1.12-1ubuntu1.6_amd64.deb ...
+Unpacking xvfb (2:21.1.12-1ubuntu1.6) ...
+Selecting previously unselected package libauthen-sasl-perl.
+Preparing to unpack .../68-libauthen-sasl-perl_2.1700-1_all.deb ...
+Unpacking libauthen-sasl-perl (2.1700-1) ...
+Setting up libice6:amd64 (2:1.0.10-1build3) ...
+Setting up libxft2:amd64 (2.3.6-1build1) ...
+Setting up libtie-ixhash-perl (1.23-4) ...
+Setting up libfont-afm-perl (1.20-4) ...
+Setting up libclone-perl:amd64 (0.46-1build3) ...
+Setting up libio-stringy-perl (2.111-3) ...
+Setting up libhtml-tagset-perl (3.20-6) ...
+Setting up libauthen-sasl-perl (2.1700-1) ...
+Setting up liblwp-mediatypes-perl (6.04-2) ...
+Setting up libxcb-shape0:amd64 (1.15-1ubuntu2) ...
+Setting up libtry-tiny-perl (0.31-2) ...
+Setting up libxxf86dga1:amd64 (2:1.1.5-1build1) ...
+Setting up perl-openssl-defaults:amd64 (7build3) ...
+Setting up libencode-locale-perl (1.05-3) ...
+Setting up fonts-wqy-microhei (0.2.0-beta-3.1) ...
+Setting up libfontenc1:amd64 (1:1.1.8-1build1) ...
+Setting up libdata-dump-perl (1.25-1) ...
+Setting up libipc-system-simple-perl (1.30-2) ...
+Setting up libxml-xpathengine-perl (0.14-2) ...
+Setting up xfonts-encodings (1:1.0.5-0ubuntu2) ...
+Setting up libio-html-perl (1.004-3) ...
+Setting up libtcl8.6:amd64 (8.6.14+dfsg-1build1) ...
+Setting up libtimedate-perl (2.3300-2) ...
+Setting up libxkbfile1:amd64 (1:1.1.0-1build4) ...
+Setting up libsm6:amd64 (2:1.2.3-1build3) ...
+Setting up libxfont2:amd64 (1:2.0.6-1+deb13u1build0.24.04.2) ...
+Setting up xdg-utils (1.1.3-4.1ubuntu3) ...
+update-alternatives: using /usr/bin/xdg-open to provide /usr/bin/open (open) in auto mode
+Setting up liburi-perl (5.27-1) ...
+Setting up libx11-protocol-perl (0.56-9) ...
+Setting up xbitmaps (1.1.1-2.2) ...
+Setting up libnet-ssleay-perl:amd64 (1.94-1build4) ...
+Setting up libhttp-date-perl (6.06-1ubuntu0.24.04.1) ...
+Setting up libfile-basedir-perl (0.09-2) ...
+Setting up libfile-listing-perl (6.16-1) ...
+Setting up libtk8.6:amd64 (8.6.14-1build1) ...
+Setting up libnet-http-perl (6.23-1) ...
+Setting up xfonts-utils (1:7.7+6build3) ...
+Setting up xfonts-base (1:1.0.5+nmu1) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Setting up libfile-desktopentry-perl (0.22-3) ...
+Setting up libwww-robotrules-perl (6.02-1) ...
+Setting up libhtml-parser-perl:amd64 (3.81-1ubuntu0.1) ...
+Setting up libio-socket-ssl-perl (2.085-1) ...
+Setting up libhttp-message-perl (6.45-1ubuntu1) ...
+Setting up libhtml-form-perl (6.11-1) ...
+Setting up libfile-mimeinfo-perl (0.34-1) ...
+Setting up libhttp-negotiate-perl (6.01-2) ...
+Setting up tk8.6-blt2.5 (2.5.3+dfsg-7build1) ...
+Setting up libxmu6:amd64 (2:1.1.3-3build2) ...
+Setting up libhttp-cookies-perl (6.11-1) ...
+Setting up libhtml-tree-perl (5.07-3) ...
+Setting up blt (2.5.3+dfsg-7build1) ...
+Setting up python3-tk:amd64 (3.12.3-0ubuntu1) ...
+Setting up libhtml-format-perl (2.16-2) ...
+Setting up libxaw7:amd64 (2:1.0.14-1build2) ...
+Setting up x11-xserver-utils (7.7+10build2) ...
+Setting up libnet-smtp-ssl-perl (1.04-2) ...
+Setting up libmailtools-perl (2.21-2) ...
+Setting up libhttp-daemon-perl (6.16-1ubuntu0.24.04.1) ...
+Setting up x11-utils (7.7+6build2) ...
+Setting up xterm (390-1ubuntu3) ...
+update-alternatives: using /usr/bin/xterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+update-alternatives: using /usr/bin/lxterm to provide /usr/bin/x-terminal-emulator (x-terminal-emulator) in auto mode
+Setting up x11-xkb-utils (7.7+8build2) ...
+Setting up xserver-common (2:21.1.12-1ubuntu1.6) ...
+Setting up xvfb (2:21.1.12-1ubuntu1.6) ...
+Setting up liblwp-protocol-https-perl (6.13-1) ...
+Setting up libwww-perl (6.76-1ubuntu0.1) ...
+Setting up libxml-parser-perl (2.47-1ubuntu0.24.04.1) ...
+Setting up libxml-twig-perl (1:3.52-2) ...
+Setting up libnet-dbus-perl (1.2.0-2build3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.8) ...
+[apt 退出码 = 0]
+--- 安装结果 ---
+  python3-tk             ✓ 3.12.3-0ubuntu1
+  xvfb                   ✓ 2:21.1.12-1ubuntu1.6
+  xterm                  ✓ 390-1ubuntu3
+  xdg-utils              ✓ 1.1.3-4.1ubuntu3
+  fonts-wqy-microhei     ✓ 0.2.0-beta-3.1
+  tkinter ✓ Tk 8.6
+
+########## 以 wsl 身份运行验证 ##########
+########## SecLists GUI (Linux) verification ##########
+时间        : 2026-09-16T10:32:06+08:00
+脚本目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools
+应用目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux
+
+--- 系统 ---
+Linux Amil 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+WSL_DISTRO_NAME=Ubuntu
+WSL_INTEROP=/run/WSL/569_interop
+
+--- 显示 ---
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_TYPE=（空）
+
+--- Python ---
+/usr/bin/python3
+Python 3.12.3
+tkinter 8.6 | python 3.12.3
+
+--- 可用截图/虚拟显示工具 ---
+  Xvfb               /usr/bin/Xvfb
+  xvfb-run           /usr/bin/xvfb-run
+  xwd                ✗
+  import             ✗
+  convert            ✗
+  scrot              ✗
+  gnome-screenshot   ✗
+
+########## 1) --doctor ##########
+======================================================================
+SecLists 助手（Linux 版）环境自检
+======================================================================
+[Python 与 Tk]
+  Python        : 3.12.3  (/usr/bin/python3)
+  Tkinter       : 8.6  (_tkinter 8.6)
+[图形显示]
+  DISPLAY       : :0
+  WAYLAND_DISPLAY: wayland-0
+  Tk 窗口测试       : ✓ 正常（屏幕 1920×1080）
+[字体]
+  界面字体          : WenQuanYi Micro Hei
+  等宽字体          : DejaVu Sans Mono
+  中文字体          : ✓ 有
+[仓库与数据目录]
+  仓库根目录         : /mnt/e/desktop/WebTools/SecLists
+  文件数量          : ✓ 约 6306 个文件
+  数据目录          : ✓ 可写 /home/wsl/.local/share/seclists-gui
+[外部工具]
+  xdg-open      : ✓ 在文件管理器中打开
+  dbus-send     : ✓ 文件管理器选中文件
+  xclip         : ✗ 外部剪贴板（可选）
+  wl-copy       : ✗ Wayland 剪贴板（可选）
+  tar           : ✓ 解压 rockyou 等
+[终端模拟器]（命令卡片「▶ 在终端运行」需要其中之一）
+  x-terminal-emulator: ✓ /usr/bin/x-terminal-emulator
+  xterm         : ✓ /usr/bin/xterm
+[环境变量]
+  SECLISTS_ROOT : （未设置）
+  SECLISTS_GUI_DATA: （未设置）
+  SECLISTS_GUI_SCALING: （未设置）
+  WSL_DISTRO_NAME: Ubuntu
+  XDG_SESSION_TYPE: （未设置）
+  内核            : Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU
+----------------------------------------------------------------------
+结论：环境就绪 ✅
+======================================================================
+[doctor 退出码 = 0]
+
+########## 2) --selftest ##########
+索引：6306 个文件 / 1.8 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：Noto Sans CJK SC / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×633
+  标签页容器: 984×757
+  场景列表: 276×489
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×550
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=404px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+SecLists 助手自检报告
+====================================================================
+索引：6306 个文件 / 1.8 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：Noto Sans CJK SC / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×633
+  标签页容器: 984×757
+  场景列表: 276×489
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×550
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=404px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+结果：全部通过 ✅
+[selftest(原生显示) 退出码 = 0]
+
+########## 3) 图形环境与后台启动 ##########
+界面已后台启动 PID=2295  （供外部截图；测试完记得 kill）
+
+########## 汇总 ##########
+doctor   : 0   （0 = 环境就绪）
+selftest : 0 （0 = 全部通过）
+结论：Linux 版在本地环境验证通过 ✅
+日志：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/wsl-test.log
+########## done ##########
+[wsl-test.sh 退出码 = 0]
+########## setup+test 结束 ##########
+########## WSL 依赖准备 2026-09-16T10:35:15+08:00 ##########
+whoami=root uid=0
+  已安装: python3-tk
+  已安装: xvfb
+  待安装: x11-apps
+  已安装: xterm
+  已安装: xdg-utils
+  已安装: fonts-wqy-microhei
+--- apt-get update ---
+--- apt-get install x11-apps ---
+Selecting previously unselected package libxcb-damage0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54904 files and directories currently installed.)
+Preparing to unpack .../libxcb-damage0_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-damage0:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package x11-apps.
+Preparing to unpack .../x11-apps_7.7+11build3_amd64.deb ...
+Unpacking x11-apps (7.7+11build3) ...
+Setting up libxcb-damage0:amd64 (1.15-1ubuntu2) ...
+Setting up x11-apps (7.7+11build3) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.8) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+[apt 退出码 = 0]
+--- 安装结果 ---
+  python3-tk             ✓ 3.12.3-0ubuntu1
+  xvfb                   ✓ 2:21.1.12-1ubuntu1.6
+  x11-apps               ✓ 7.7+11build3
+  xterm                  ✓ 390-1ubuntu3
+  xdg-utils              ✓ 1.1.3-4.1ubuntu3
+  fonts-wqy-microhei     ✓ 0.2.0-beta-3.1
+  tkinter ✓ Tk 8.6
+
+########## 以 wsl 身份运行验证 ##########
+########## SecLists GUI (Linux) verification ##########
+时间        : 2026-09-16T10:35:21+08:00
+脚本目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools
+应用目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux
+
+--- 系统 ---
+Linux Amil 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+WSL_DISTRO_NAME=Ubuntu
+WSL_INTEROP=/run/WSL/2338_interop
+
+--- 显示 ---
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_TYPE=（空）
+
+--- Python ---
+/usr/bin/python3
+Python 3.12.3
+tkinter 8.6 | python 3.12.3
+
+--- 可用截图/虚拟显示工具 ---
+  Xvfb               /usr/bin/Xvfb
+  xvfb-run           /usr/bin/xvfb-run
+  xwd                /usr/bin/xwd
+  import             ✗
+  convert            ✗
+  scrot              ✗
+  gnome-screenshot   ✗
+
+########## 1) --doctor ##########
+======================================================================
+SecLists 助手（Linux 版）环境自检
+======================================================================
+[Python 与 Tk]
+  Python        : 3.12.3  (/usr/bin/python3)
+  Tkinter       : 8.6  (_tkinter 8.6)
+[图形显示]
+  DISPLAY       : :0
+  WAYLAND_DISPLAY: wayland-0
+  Tk 窗口测试       : ✓ 正常（屏幕 1920×1080）
+[字体]
+  界面字体          : WenQuanYi Micro Hei
+  等宽字体          : DejaVu Sans Mono
+  中文字体          : ✓ 有
+[仓库与数据目录]
+  仓库根目录         : /mnt/e/desktop/WebTools/SecLists
+  文件数量          : ✓ 约 6310 个文件
+  数据目录          : ✓ 可写 /home/wsl/.local/share/seclists-gui
+[外部工具]
+  xdg-open      : ✓ 在文件管理器中打开
+  dbus-send     : ✓ 文件管理器选中文件
+  xclip         : ✗ 外部剪贴板（可选）
+  wl-copy       : ✗ Wayland 剪贴板（可选）
+  tar           : ✓ 解压 rockyou 等
+[终端模拟器]（命令卡片「▶ 在终端运行」需要其中之一）
+  x-terminal-emulator: ✓ /usr/bin/x-terminal-emulator
+  xterm         : ✓ /usr/bin/xterm
+[环境变量]
+  SECLISTS_ROOT : （未设置）
+  SECLISTS_GUI_DATA: （未设置）
+  SECLISTS_GUI_SCALING: （未设置）
+  WSL_DISTRO_NAME: Ubuntu
+  XDG_SESSION_TYPE: （未设置）
+  内核            : Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU
+----------------------------------------------------------------------
+结论：环境就绪 ✅
+======================================================================
+[doctor 退出码 = 0]
+
+########## 2) --selftest ##########
+索引：0 个文件 / 0 B / 0 个顶层分类
+✗ 文件数量异常偏少
+✗ 有 128 个场景字典路径不存在：
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+Traceback (most recent call last):
+  File "/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/slgui/app.py", line 2039, in launch
+    ok, report = app.selftest()
+                 ^^^^^^^^^^^^^^
+  File "/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/slgui/app.py", line 1854, in selftest
+    first = self.index.get("Discovery/Web-Content/quickhits.txt") or next(iter(self.index.files.values()))
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+自检过程中出错：
+[selftest(原生显示) 退出码 = 1]
+--- 回退到 xvfb-run ---
+索引：0 个文件 / 0 B / 0 个顶层分类
+✗ 文件数量异常偏少
+✗ 有 128 个场景字典路径不存在：
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+Traceback (most recent call last):
+  File "/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/slgui/app.py", line 2039, in launch
+    ok, report = app.selftest()
+                 ^^^^^^^^^^^^^^
+  File "/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/slgui/app.py", line 1854, in selftest
+    first = self.index.get("Discovery/Web-Content/quickhits.txt") or next(iter(self.index.files.values()))
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+自检过程中出错：
+[selftest(xvfb) 退出码 = 1]
+
+########## 3) 图形环境与后台启动 ##########
+界面已后台启动 PID=2781  （供外部截图；测试完记得 kill）
+
+########## 汇总 ##########
+doctor   : 0   （0 = 环境就绪）
+selftest : 1 （0 = 全部通过）
+结论：需要看上面的具体报错 ❌
+日志：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/wsl-test.log
+########## done ##########
+[wsl-test.sh 退出码 = 0]
+
+########## Xvfb 虚拟显示截图（不受窗口遮挡影响） ##########
+启动 Xvfb :99 (1400x900x24) …
+--- 标签页 0 (guide) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.xwd (5043179 字节)
+--- 标签页 1 (preview) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.xwd (5043179 字节)
+--- 标签页 2 (search) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.xwd (5043179 字节)
+--- 标签页 3 (toolbox) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.xwd (5043179 字节)
+--- 标签页 4 (cheatsheet) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.xwd (5043179 字节)
+--- 转换 XWD -> PNG ---
+  tab0-guide.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.png  (215 KB)
+  tab1-preview.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.png  (69 KB)
+  tab2-search.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.png  (74 KB)
+  tab3-toolbox.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.png  (97 KB)
+  tab4-cheatsheet.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.png  (170 KB)
+产物目录：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots
+total 25276
+drwxrwxrwx 1 wsl wsl    4096 Sep 16 10:36 .
+drwxrwxrwx 1 wsl wsl    4096 Sep 16 10:35 ..
+-rwxrwxrwx 1 wsl wsl  220127 Sep 16 10:36 tab0-guide.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:35 tab0-guide.xwd
+-rwxrwxrwx 1 wsl wsl   70435 Sep 16 10:36 tab1-preview.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:35 tab1-preview.xwd
+-rwxrwxrwx 1 wsl wsl   75824 Sep 16 10:36 tab2-search.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:35 tab2-search.xwd
+-rwxrwxrwx 1 wsl wsl   99514 Sep 16 10:36 tab3-toolbox.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:36 tab3-toolbox.xwd
+-rwxrwxrwx 1 wsl wsl  174353 Sep 16 10:36 tab4-cheatsheet.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:36 tab4-cheatsheet.xwd
+[xvfb-shot.sh 退出码 = 0]
+已关闭后台界面进程
+########## WSL 依赖准备 2026-09-16T10:37:54+08:00 ##########
+whoami=root uid=0
+  已安装: python3-tk
+  已安装: xvfb
+  已安装: x11-apps
+  已安装: xterm
+  已安装: xdg-utils
+  已安装: fonts-wqy-microhei
+--- 安装结果 ---
+  python3-tk             ✓ 3.12.3-0ubuntu1
+  xvfb                   ✓ 2:21.1.12-1ubuntu1.6
+  x11-apps               ✓ 7.7+11build3
+  xterm                  ✓ 390-1ubuntu3
+  xdg-utils              ✓ 1.1.3-4.1ubuntu3
+  fonts-wqy-microhei     ✓ 0.2.0-beta-3.1
+  tkinter ✓ Tk 8.6
+
+########## 以 wsl 身份运行验证 ##########
+########## SecLists GUI (Linux) verification ##########
+时间        : 2026-09-16T10:37:54+08:00
+脚本目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools
+应用目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux
+
+--- 系统 ---
+Linux Amil 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+WSL_DISTRO_NAME=Ubuntu
+WSL_INTEROP=/run/WSL/765_interop
+
+--- 显示 ---
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_TYPE=（空）
+
+--- Python ---
+/usr/bin/python3
+Python 3.12.3
+tkinter 8.6 | python 3.12.3
+
+--- 可用截图/虚拟显示工具 ---
+  Xvfb               /usr/bin/Xvfb
+  xvfb-run           /usr/bin/xvfb-run
+  xwd                /usr/bin/xwd
+  import             ✗
+  convert            ✗
+  scrot              ✗
+  gnome-screenshot   ✗
+
+########## 1) --doctor ##########
+======================================================================
+SecLists 助手（Linux 版）环境自检
+======================================================================
+[Python 与 Tk]
+  Python        : 3.12.3  (/usr/bin/python3)
+  Tkinter       : 8.6  (_tkinter 8.6)
+[图形显示]
+  DISPLAY       : :0
+  WAYLAND_DISPLAY: wayland-0
+  Tk 窗口测试       : ✓ 正常（屏幕 640×480）
+[字体]
+  界面字体          : WenQuanYi Micro Hei
+  等宽字体          : DejaVu Sans Mono
+  中文字体          : ✓ 有
+[仓库与数据目录]
+  仓库根目录         : /mnt/e/desktop/WebTools/SecLists
+  文件数量          : ✓ 约 6320 个文件
+  数据目录          : ✓ 可写 /home/wsl/.local/share/seclists-gui
+[外部工具]
+  xdg-open      : ✓ 在文件管理器中打开
+  dbus-send     : ✓ 文件管理器选中文件
+  xclip         : ✗ 外部剪贴板（可选）
+  wl-copy       : ✗ Wayland 剪贴板（可选）
+  tar           : ✓ 解压 rockyou 等
+[终端模拟器]（命令卡片「▶ 在终端运行」需要其中之一）
+  x-terminal-emulator: ✓ /usr/bin/x-terminal-emulator
+  xterm         : ✓ /usr/bin/xterm
+[环境变量]
+  SECLISTS_ROOT : （未设置）
+  SECLISTS_GUI_DATA: （未设置）
+  SECLISTS_GUI_SCALING: （未设置）
+  WSL_DISTRO_NAME: Ubuntu
+  XDG_SESSION_TYPE: （未设置）
+  内核            : Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU
+----------------------------------------------------------------------
+结论：环境就绪 ✅
+======================================================================
+[doctor 退出码 = 0]
+
+########## 2) --selftest ##########
+索引：6320 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+SecLists 助手自检报告
+====================================================================
+索引：6320 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+ 实际字体：界面 WenQuanYi Micro Hei / 等宽 DejaVu Sans Mono（与请求一致 ✓）
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+结果：全部通过 ✅
+[selftest(原生显示) 退出码 = 0]
+
+########## 3) 图形环境与后台启动 ##########
+界面已后台启动 PID=1349  （供外部截图；测试完记得 kill）
+
+########## 汇总 ##########
+doctor   : 0   （0 = 环境就绪）
+selftest : 0 （0 = 全部通过）
+结论：Linux 版在本地环境验证通过 ✅
+日志：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/wsl-test.log
+########## done ##########
+[wsl-test.sh 退出码 = 0]
+
+########## Xvfb 虚拟显示截图（不受窗口遮挡影响） ##########
+启动 Xvfb :99 (1400x900x24) …
+--- 标签页 0 (guide) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.xwd (5043179 字节)
+--- 标签页 1 (preview) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.xwd (5043179 字节)
+--- 标签页 2 (search) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.xwd (5043179 字节)
+--- 标签页 3 (toolbox) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.xwd (5043179 字节)
+--- 标签页 4 (cheatsheet) ---
+  已抓取 /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.xwd (5043179 字节)
+--- 转换 XWD -> PNG ---
+  tab0-guide.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.png  (215 KB)
+  tab1-preview.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.png  (69 KB)
+  tab2-search.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.png  (74 KB)
+  tab3-toolbox.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.png  (97 KB)
+  tab4-cheatsheet.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.png  (170 KB)
+产物目录：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots
+total 25276
+drwxrwxrwx 1 wsl wsl    4096 Sep 16  2026 .
+drwxrwxrwx 1 wsl wsl    4096 Sep 16 10:35 ..
+-rwxrwxrwx 1 wsl wsl  220129 Sep 16 10:38 tab0-guide.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:38 tab0-guide.xwd
+-rwxrwxrwx 1 wsl wsl   70429 Sep 16 10:39 tab1-preview.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:38 tab1-preview.xwd
+-rwxrwxrwx 1 wsl wsl   75818 Sep 16 10:39 tab2-search.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:38 tab2-search.xwd
+-rwxrwxrwx 1 wsl wsl   99510 Sep 16  2026 tab3-toolbox.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:38 tab3-toolbox.xwd
+-rwxrwxrwx 1 wsl wsl  174353 Sep 16  2026 tab4-cheatsheet.png
+-rwxrwxrwx 1 wsl wsl 5043179 Sep 16 10:38 tab4-cheatsheet.xwd
+[xvfb-shot.sh 退出码 = 0]
+已关闭后台界面进程
+########## WSL 依赖准备 2026-09-16T10:40:58+08:00 ##########
+whoami=root uid=0
+  已安装: python3-tk
+  已安装: xvfb
+  已安装: x11-apps
+  已安装: xterm
+  已安装: xdg-utils
+  已安装: fonts-wqy-microhei
+--- 安装结果 ---
+  python3-tk             ✓ 3.12.3-0ubuntu1
+  xvfb                   ✓ 2:21.1.12-1ubuntu1.6
+  x11-apps               ✓ 7.7+11build3
+  xterm                  ✓ 390-1ubuntu3
+  xdg-utils              ✓ 1.1.3-4.1ubuntu3
+  fonts-wqy-microhei     ✓ 0.2.0-beta-3.1
+  tkinter ✓ Tk 8.6
+
+########## 以 wsl 身份运行验证 ##########
+########## SecLists GUI (Linux) verification ##########
+时间        : 2026-09-16T10:40:58+08:00
+脚本目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools
+应用目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux
+
+--- 系统 ---
+Linux Amil 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+WSL_DISTRO_NAME=Ubuntu
+WSL_INTEROP=/run/WSL/583_interop
+
+--- 显示 ---
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_TYPE=（空）
+
+--- Python ---
+/usr/bin/python3
+Python 3.12.3
+tkinter 8.6 | python 3.12.3
+
+--- 可用截图/虚拟显示工具 ---
+  Xvfb               /usr/bin/Xvfb
+  xvfb-run           /usr/bin/xvfb-run
+  xwd                /usr/bin/xwd
+  import             ✗
+  convert            ✗
+  scrot              ✗
+  gnome-screenshot   ✗
+
+########## 1) --doctor ##########
+======================================================================
+SecLists 助手（Linux 版）环境自检
+======================================================================
+[Python 与 Tk]
+  Python        : 3.12.3  (/usr/bin/python3)
+  Tkinter       : 8.6  (_tkinter 8.6)
+[图形显示]
+  DISPLAY       : :0
+  WAYLAND_DISPLAY: wayland-0
+  Tk 窗口测试       : ✓ 正常（屏幕 640×480）
+[字体]
+  界面字体          : WenQuanYi Micro Hei
+  等宽字体          : DejaVu Sans Mono
+  中文字体          : ✓ 有
+[仓库与数据目录]
+  仓库根目录         : /mnt/e/desktop/WebTools/SecLists
+  文件数量          : ✓ 约 6323 个文件
+  数据目录          : ✓ 可写 /home/wsl/.local/share/seclists-gui
+[外部工具]
+  xdg-open      : ✓ 在文件管理器中打开
+  dbus-send     : ✓ 文件管理器选中文件
+  xclip         : ✗ 外部剪贴板（可选）
+  wl-copy       : ✗ Wayland 剪贴板（可选）
+  tar           : ✓ 解压 rockyou 等
+[终端模拟器]（命令卡片「▶ 在终端运行」需要其中之一）
+  x-terminal-emulator: ✓ /usr/bin/x-terminal-emulator
+  xterm         : ✓ /usr/bin/xterm
+[环境变量]
+  SECLISTS_ROOT : （未设置）
+  SECLISTS_GUI_DATA: （未设置）
+  SECLISTS_GUI_SCALING: （未设置）
+  WSL_DISTRO_NAME: Ubuntu
+  XDG_SESSION_TYPE: （未设置）
+  内核            : Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU
+----------------------------------------------------------------------
+结论：环境就绪 ✅
+======================================================================
+[doctor 退出码 = 0]
+
+########## 2) --selftest ##########
+索引：6323 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+SecLists 助手自检报告
+====================================================================
+索引：6323 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+ 实际字体：界面 WenQuanYi Micro Hei / 等宽 DejaVu Sans Mono（与请求一致 ✓）
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+结果：全部通过 ✅
+[selftest(原生显示) 退出码 = 0]
+
+########## 3) 图形环境与后台启动 ##########
+界面已后台启动 PID=1227  （供外部截图；测试完记得 kill）
+
+########## 汇总 ##########
+doctor   : 0   （0 = 环境就绪）
+selftest : 0 （0 = 全部通过）
+结论：Linux 版在本地环境验证通过 ✅
+日志：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/wsl-test.log
+########## done ##########
+[wsl-test.sh 退出码 = 0]
+
+########## Xvfb 虚拟显示截图（不受窗口遮挡影响） ##########
+启动 Xvfb :99 (1400x900x24) …
+--- 启动界面并逐页截图（内部会等索引完成） ---
+[capture] tab0 (guide) -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.xwd
+[capture] tab1 (preview) -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.xwd
+[capture] tab2 (search) -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.xwd
+[capture] tab3 (toolbox) -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.xwd
+[capture] tab4 (cheatsheet) -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.xwd
+[capture] 完成：5/5 张 → /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots
+[capture 退出码 = 0]
+--- 转换 XWD -> PNG ---
+  tab0-guide.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.png  (227 KB)
+  tab1-preview.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.png  (102 KB)
+  tab2-search.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.png  (108 KB)
+  tab3-toolbox.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.png  (130 KB)
+  tab4-cheatsheet.xwd -> /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.png  (202 KB)
+产物目录：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots
+  232894 bytes  /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab0-guide.png
+  104648 bytes  /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab1-preview.png
+  111037 bytes  /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab2-search.png
+  132905 bytes  /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab3-toolbox.png
+  206679 bytes  /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/shots/tab4-cheatsheet.png
+[xvfb-shot.sh 退出码 = 0]
+已关闭后台界面进程
+########## setup+test 结束 ##########

@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# ============================================================================
+#  SecLists 使用助手（Linux 版）启动器
+#  用法： ./seclists-gui            启动图形界面
+#         ./seclists-gui --doctor   只做环境自检
+#         ./seclists-gui --selftest 无头自检
+#  可用环境变量： PYTHON（默认 python3） SECLISTS_ROOT  SECLISTS_GUI_DATA
+# ============================================================================
+set -uo pipefail
+
+HERE="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PY="${PYTHON:-python3}"
+
+if ! command -v "$PY" >/dev/null 2>&1; then
+  echo "[x] 没有找到 $PY。请先安装 Python 3.10 或更高版本。" >&2
+  exit 1
+fi
+
+if ! "$PY" -c 'import tkinter' >/dev/null 2>&1; then
+  echo "[x] Python 缺少 Tkinter 模块（图形界面必需）。安装方法：" >&2
+  echo "      Debian / Ubuntu / Kali : sudo apt install python3-tk" >&2
+  echo "      Fedora                 : sudo dnf install python3-tkinter" >&2
+  echo "      Arch / Manjaro         : sudo pacman -S tk" >&2
+  echo "      openSUSE               : sudo zypper install python3-tk" >&2
+  exit 1
+fi
+
+# --doctor / --selftest 不需要图形显示，其余情况先提醒
+case " $* " in
+  *" --doctor "*|*" --selftest "*) ;;
+  *)
+    if [ -z "${DISPLAY:-}" ] && [ -z "${WAYLAND_DISPLAY:-}" ]; then
+      echo "[!] 没有检测到图形显示（DISPLAY 与 WAYLAND_DISPLAY 都为空）。" >&2
+      echo "    WSL   : 需要 WSLg（Windows 11 或已更新的 Windows 10），" >&2
+      echo "            或自行启动 X server 后 export DISPLAY=:0" >&2
+      echo "    SSH   : 用 ssh -X 登录，并确认服务端已开启 X11Forwarding" >&2
+      echo "    纯终端: 可先跑 ./seclists-gui --doctor 看环境报告" >&2
+      echo "    （3 秒后仍会尝试启动，Ctrl+C 可取消）" >&2
+      sleep 3
+    fi
+    ;;
+esac
+
+exec "$PY" "$HERE/SecListsAssistant.py" "$@"

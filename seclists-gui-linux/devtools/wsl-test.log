@@ -1,0 +1,148 @@
+########## SecLists GUI (Linux) verification ##########
+时间        : 2026-09-16T10:40:58+08:00
+脚本目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools
+应用目录    : /mnt/e/desktop/WebTools/SecLists/seclists-gui-linux
+
+--- 系统 ---
+Linux Amil 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+WSL_DISTRO_NAME=Ubuntu
+WSL_INTEROP=/run/WSL/583_interop
+
+--- 显示 ---
+DISPLAY=:0
+WAYLAND_DISPLAY=wayland-0
+XDG_RUNTIME_DIR=/run/user/0
+XDG_SESSION_TYPE=（空）
+
+--- Python ---
+/usr/bin/python3
+Python 3.12.3
+tkinter 8.6 | python 3.12.3
+
+--- 可用截图/虚拟显示工具 ---
+  Xvfb               /usr/bin/Xvfb
+  xvfb-run           /usr/bin/xvfb-run
+  xwd                /usr/bin/xwd
+  import             ✗
+  convert            ✗
+  scrot              ✗
+  gnome-screenshot   ✗
+
+########## 1) --doctor ##########
+======================================================================
+SecLists 助手（Linux 版）环境自检
+======================================================================
+[Python 与 Tk]
+  Python        : 3.12.3  (/usr/bin/python3)
+  Tkinter       : 8.6  (_tkinter 8.6)
+[图形显示]
+  DISPLAY       : :0
+  WAYLAND_DISPLAY: wayland-0
+  Tk 窗口测试       : ✓ 正常（屏幕 640×480）
+[字体]
+  界面字体          : WenQuanYi Micro Hei
+  等宽字体          : DejaVu Sans Mono
+  中文字体          : ✓ 有
+[仓库与数据目录]
+  仓库根目录         : /mnt/e/desktop/WebTools/SecLists
+  文件数量          : ✓ 约 6323 个文件
+  数据目录          : ✓ 可写 /home/wsl/.local/share/seclists-gui
+[外部工具]
+  xdg-open      : ✓ 在文件管理器中打开
+  dbus-send     : ✓ 文件管理器选中文件
+  xclip         : ✗ 外部剪贴板（可选）
+  wl-copy       : ✗ Wayland 剪贴板（可选）
+  tar           : ✓ 解压 rockyou 等
+[终端模拟器]（命令卡片「▶ 在终端运行」需要其中之一）
+  x-terminal-emulator: ✓ /usr/bin/x-terminal-emulator
+  xterm         : ✓ /usr/bin/xterm
+[环境变量]
+  SECLISTS_ROOT : （未设置）
+  SECLISTS_GUI_DATA: （未设置）
+  SECLISTS_GUI_SCALING: （未设置）
+  WSL_DISTRO_NAME: Ubuntu
+  XDG_SESSION_TYPE: （未设置）
+  内核            : Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU
+----------------------------------------------------------------------
+结论：环境就绪 ✅
+======================================================================
+[doctor 退出码 = 0]
+
+########## 2) --selftest ##########
+索引：6323 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+SecLists 助手自检报告
+====================================================================
+索引：6323 个文件 / 1.9 GB / 11 个顶层分类
+✓ 128 个场景字典路径全部存在
+✓ 23 个场景详情均可渲染
+  命令示例：ffuf -u https://demo.example.com/ -H 'User-Agent: FUZZ' -w /mnt/e/desktop/WebTools/SecLists/Fuzzing/User-Agent
+✓ 主题与字体：WenQuanYi Micro Hei / DejaVu Sans Mono
+✓ 预览 Discovery/Web-Content/quickhits.txt：500 行
+✓ 行数统计 Discovery/Web-Content/quickhits.txt：2,570 行
+✓ 内容搜索自检：quickhits 中含 'admin' 的 5 处
+✓ 工具箱自检：2 个文件 输入 7,322 行 → 输出 6,633 行（过滤 689 行），落盘 6,633 行 / 72.8 KB
+  左侧导航树: 334×632
+  标签页容器: 984×757
+  场景列表: 276×488
+  场景详情容器: 632×547
+  字典预览 → 文本区: 892×539
+  全库搜索 → 输入框: 431×29
+  全库搜索 → 结果树: 960×569
+  字典工具箱 → 文件列表: 333×549
+  字典工具箱 → 预览区: 507×368
+  速查手册 → 文本区: 946×694
+✓ 场景「第一次用 SecLists：5 分钟上手」的命令区在首屏内（y=405px / 可视 547px）
+ 标签页：['🧭 使用引导', '👀 字典预览', '🔎 全库搜索', '🧰 字典工具箱', '📖 速查手册']
+ 场景树节点数：6 个分组 / 23 个场景
+ 导航树顶层节点：16 个
+ 详情面板子控件：14 个
+ 实际字体：界面 WenQuanYi Micro Hei / 等宽 DejaVu Sans Mono（与请求一致 ✓）
+✓ 各区域尺寸正常（含各标签页实际排版）
+✓ 界面搜索链路：范围 Discovery/Variables，关键字 'key'，结果节点 44 个，状态「搜索结束：共命中 42 处。双击结果可跳转到预览。」
+✓ 搜索结果双击跳转：已打开 Discovery/Variables/awesome-environment-variable-names.txt
+✓ 界面工具箱链路：预览：2,512 行（已过滤 58 行），预览 300 行
+====================================================================
+结果：全部通过 ✅
+[selftest(原生显示) 退出码 = 0]
+
+########## 3) 图形环境与后台启动 ##########
+界面已后台启动 PID=1227  （供外部截图；测试完记得 kill）
+
+########## 汇总 ##########
+doctor   : 0   （0 = 环境就绪）
+selftest : 0 （0 = 全部通过）
+结论：Linux 版在本地环境验证通过 ✅
+日志：/mnt/e/desktop/WebTools/SecLists/seclists-gui-linux/devtools/wsl-test.log
+########## done ##########
